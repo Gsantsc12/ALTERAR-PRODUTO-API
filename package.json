@@ -1,0 +1,12 @@
+{
+  "name": "cypress-nota-fiscal",
+  "version": "1.0.0",
+  "description": "Projeto de testes de API com Cypress",
+  "scripts": {
+    "test": "cypress run",
+    "cy:open": "cypress open"
+  },
+  "devDependencies": {
+    "cypress": "^13.0.0"
+  }
+}
