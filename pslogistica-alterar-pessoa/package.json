@@ -1,0 +1,12 @@
+{
+  "name": "pslogistica-tests",
+  "version": "1.0.0",
+  "description": "Testes automatizados de API com Cypress",
+  "scripts": {
+    "test": "cypress open"
+  },
+  "devDependencies": {
+    "cypress": "^13.17.0",
+    "dotenv": "^16.3.1"
+  }
+}
