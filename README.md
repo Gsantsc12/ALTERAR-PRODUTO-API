@@ -23,9 +23,3 @@ Automação de testes para o endpoint de **registro de nota fiscal** na **Pierse
     }
   ]
 }
-```
-
-## ✅ Validações
-- Status 200
-- Validação dos produtos inseridos
-- Mensagem de sucesso
