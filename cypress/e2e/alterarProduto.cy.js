@@ -1,14 +1,10 @@
 describe('Alteração de Produto - API', () => {
   it('Deve alterar um produto com sucesso', () => {
     const payload = {
-"codigo_cliente": "12345U",
-"codigo_fornecedor": "12345U",
-"descricao": "Teste de Caixa 1",
-"controle_serie": false,
-"controle_validade": false,
-"controle_imei": false,
-"controle_numero_ativo": false,
-"sigla_cliente": "HNK"
+"codigo_pier": "xxxxxxx",
+"descricao": "xxxxxxxx",
+"sigla_cliente": "xxxxx",
+"estoque_minimo": "xxxxx"
 };
     cy.alterarProduto(payload).then((response) => {
       expect(response.status).to.eq(200);
